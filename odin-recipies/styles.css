@@ -5,3 +5,38 @@ div {
   align: center;
   font-weight: bold;
 }
+
+.odd {
+  font-family: "Verdana", "DejaVu Sans", sans-serif;
+  background-color: #FF33FF;
+}
+
+.second {
+  font-size: 36px;
+  color: blue;
+}
+
+.third {
+  font-size: 34px;
+}
+
+#fourth {
+  background-color: #3FF476;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.button3 {
+  font-size: 28px;
+  font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+#button1 {
+  color: white;
+  background-color: black;
+}
+
+#button2 {
+  background-color: yellow;
+}
+  
