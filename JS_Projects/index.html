@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Test Page</title>
-</head>
-<body>
-  <script src="script1.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>
+        <input type="text" id="userChoice" name="Choice" />
+        <button onclick="game()">Play Game</button>
+        <script src="rps.js"></script>
+      </h2>
+      <div class="sidebar">
+        <p style="float: left">Player's Choice:&nbsp</p>
+        <p style="float: left" id="playerSelection"></p>
+      </div>
+      <div class="sidebar">
+        <p style="float: right" id="computerSelection"></p>
+        <p style="float: right">Computer's Choice:&nbsp</p>
+      </div>
+    </div>
+    <h3>
+      <p id="gameResult"></p>
+    </h3>
+  </body>
 </html>

@@ -1,6 +1,6 @@
 function troubleshooting() {
-  const a = "1";
-  const b = "2";
+  const a = '1';
+  const b = '2';
 
   // Edit between these lines
   // =================================
@@ -10,5 +10,6 @@ function troubleshooting() {
 
   return result;
 }
+
 console.log(troubleshooting());
-console.log("%c Green text", "font-color: green; font-size:18px;");
+console.log('%c Green text', 'font-color: green; font-size:18px;');

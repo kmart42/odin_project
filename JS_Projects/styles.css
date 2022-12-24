@@ -1,0 +1,17 @@
+h2 {
+  background: aqua;
+}
+
+div {
+  width: 100%;
+}
+
+.container {
+  color: gray;
+}
+
+h3 {
+  width: 100%;
+  position: relative;
+  top: 150px;
+}
