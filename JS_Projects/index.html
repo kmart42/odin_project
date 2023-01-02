@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <title>Test Page</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="rps.js" defer></script>
   </head>
   <body>
     <div class="container">
       <h2>
-        <input type="text" id="userChoice" name="Choice" />
-        <button onclick="game()">Play Game</button>
-        <script src="rps.js"></script>
+        <button id="rockBtn">Rock</button>
+        <button id="paperBtn">Paper</button>
+        <button id="scissorsBtn">Scissors</button>
       </h2>
       <div class="sidebar">
         <p style="float: left">Player's Choice:&nbsp</p>
@@ -22,7 +23,11 @@
       </div>
     </div>
     <h3>
-      <p id="gameResult"></p>
+      <p>Player's Score:&nbsp</p>
+      <p id="playerResult"></p>
+      <p>Computer's Score:&nbsp</p>
+      <p id="computerResult"></p>
+      <p id="grandResult"></p>
     </h3>
   </body>
 </html>
