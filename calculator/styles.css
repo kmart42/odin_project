@@ -1,0 +1,38 @@
+.grid-container {
+ display: grid;
+ grid-template-columns: auto auto auto;
+ background-color: #2196F3;
+ padding: 10px;
+}
+
+.grid-item {
+ background-color: rgba(255, 255, 255, 0.8);
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 20px;
+ font-size: 30px;
+ text-align: center;
+}
+
+.results-container {
+ display: grid;
+ grid-template-columns: auto auto;
+ background-color: #FF5733;
+ padding: 10px;
+}
+
+.results-item {
+ background-color: rgba(155, 155, 155, 0.8);
+ border: 1px solid rgba(20, 20, 20, 0.8);
+ padding: 20px;
+ font-size: 30px;
+ text-align: center;
+}
+
+.display-container {
+ display: grid;
+ grid-template-columns: auto;
+ background-color: gray;
+ padding: 10px;
+ font-size: 30px;
+ text-align: center;
+}
