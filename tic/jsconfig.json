@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "noUnusedLocals": true,
+      "resolveJsonModule": true,
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "target": "ES5",
+      "lib": ["es2020", "esnext.asynciterable", "dom"],
+      "downlevelIteration": true,
+      "importHelpers": true,
+      "jsx": "react-jsx",
+      "baseUrl": ".",
+      "isolatedModules": true,
+      "paths": {
+        "@root/*": ["*"],
+        "@config/*": ["src/config/*"],
+        "@src/*": ["src/*"],
+        "@dashboard/*": ["src/dashboard/*"],
+        "@client/*": ["src/client/*"],
+        "@server/*": ["src/server/*"],
+        "@shared/*": ["src/shared/*"],
+        "@static/*": ["src/static/*"],
+        "@components/*": ["src/dashboard/components/*"],
+        "@redux/*": ["src/dashboard/redux/*"]
+    },
+      "skipLibCheck": false
+    },
+    "include": [
+      "./src/**/*ts",
+      "./src/**/*tsx",
+      "./tests/UnitTests/*.tsx"
+    ],
+    "ts-node": {
+      "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true
+      }
+    }
+  }
