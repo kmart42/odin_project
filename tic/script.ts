@@ -45,6 +45,7 @@ resetBtn?.addEventListener('click', (e) => {
     gridArray.forEach(cell => {
         cell.innerHTML = '';
         cell.title = 'true';
+        playerX = 'true';
         result.innerHTML = 'Player X\'s turn';
     })
 })
